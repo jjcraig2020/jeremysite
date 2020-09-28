@@ -1,0 +1,36 @@
+baseURL = "https://www.jeremylearnsthings.com"
+languageCode = "en-us"
+title = "Jeremy Learns Things"
+theme = "rocinante"
+paginate = 3
+summaryLength = 0
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[author]
+  name = "Jeremy"
+
+[params]
+  mainSections = ["post", "photos"]
+  email = "email@example.com"
+  favicon = "/icon/favicon.jpg"
+  about = """
+Hey. I'm **Jeremy**. This is my blog.
+
+I started it to learn how to write.
+
+_Education is what survives when what has been learned has been forgotten. - B.F. Skinner_
+"""
+
+  [[params.links]]
+   
+
+    [[params.links.link]]
+      name = "Twitter"
+      href = "https://twitter.com/jeremycsaunders"
+      new_tab = true

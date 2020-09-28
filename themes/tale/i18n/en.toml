@@ -1,0 +1,11 @@
+[writtenBy]
+other = "Written by"
+
+[on]
+other = "on"
+
+[generator]
+other = "test"
+
+[publishdate]
+other = "{{ .PublishDate.Format \"January 2, 2006\" }}"
